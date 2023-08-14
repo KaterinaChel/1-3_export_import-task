@@ -1,0 +1,11 @@
+CREATE TABLE logs.data_logs( 
+    log_id SERIAL PRIMARY KEY, 
+    start_time TIMESTAMP,
+	end_time TIMESTAMP,
+    source TEXT, 
+    success BOOLEAN, 
+    error_code TEXT 
+);
+
+alter table logs.data_logs
+add column action_task TEXT;
