@@ -1,2 +1,4 @@
-# 1-3_export_import-task
-1.3 export/import task
+1/ export data from postgres to csv
+2/ edit data
+3/ import data
+4/ logging
